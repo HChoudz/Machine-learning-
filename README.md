@@ -25,13 +25,6 @@ License Sources:
 1) Images Dataset - https://creativecommons.org/publicdomain/zero/1.0/
 2) Numerical Dataset - https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-Examples of Our datset:
-1) Image Dataset - ![Screenshot 2024-11-22 at 10 07 50 PM](https://github.com/user-attachments/assets/943540c0-996b-498a-b6aa-b27b710eb122)
-2) Numerical Dataset - ![Numerical Dataset](https://github.com/user-attachments/assets/487e2a91-ca65-4645-8cd7-0e413bb8cd9c)
-
-No additional steps were taken to expand the datasets. 
-All the requirements (R2-R5) can be located in Code -> Jupyter -> F20DL Group8.ipynb , link: https://github.com/Leelian-Alhadhoud/F20DL-Group-8/blob/main/code%20/Jupyter/F20DL%20group8.ipynb
-
 
 To run the Jupyter you have to import the following libraries -> 
 You can use either of these 2 commands (depending on your environment) to install individually': "Pip3 install 'library_name'" OR    "Conda install 'library_name'" 
@@ -70,54 +63,26 @@ Description:
 In R3, we applied K-Means, Hierarchical Clustering, DBSCAN, and GMM to cluster the numerical data set preprocessed with PCA in R2. This PCA reduced dimensionality supported easier clustering. The Elbow Method was used to identify the best number of clusters, while cluster quality was assessed using Silhouette Scores and Silhouette Plots. Each of the methods contributed differently to the structure of the data: K-Means and GMM with sharp separations, DBSCAN-identifying noise points. The results of clustering have been checked by visualizations and metrics.
 
 R4: **THE DECISION Tree** (Numerical Dataset) -
-depicted here is predicting whether a breast tumor is benign or malignant based on various input features related to tumor characteristics, such as concave points_mean, radius_worst, texture_mean, and others. Expected output:
-
-![output1](https://github.com/user-attachments/assets/2ba66761-ee2c-43e1-959a-4c9d0ed1711f)
-![output](https://github.com/user-attachments/assets/12e9992d-af5c-4530-8467-87298ddcc1f6)
+depicted here is predicting whether a breast tumor is benign or malignant based on various input features related to tumor characteristics, such as concave points_mean, radius_worst, texture_mean, and others. 
 
 **THE K NEAREST NEIGBOURS** (Numerical Dataset) - 
-The k-Nearest Neighbours algorithm is predicting whether a breast tumor is benign (non-cancerous) or malignant (cancerous) based on its similarity to nearby labeled data points in the dataset. Expected Output:
-![Screenshot 2024-11-22 at 10 50 38 PM](https://github.com/user-attachments/assets/1a54d9a5-943e-40f8-86fe-6aa0f8eb3d45)
+The k-Nearest Neighbours algorithm is predicting whether a breast tumor is benign (non-cancerous) or malignant (cancerous) based on its similarity to nearby labeled data points in the dataset. 
 
-![3](https://github.com/user-attachments/assets/33c965a3-0a0e-4fe3-bc3b-11e8bdb89a09)
-![1](https://github.com/user-attachments/assets/6d200785-0a8d-4c6f-a480-ede189b59129)
-![2](https://github.com/user-attachments/assets/84d77f27-0ff6-4854-9f29-1295ccda45a1)
-![4](https://github.com/user-attachments/assets/c0946001-8436-4432-af3e-a52403d72bd6)
 
 **SUPPORT VECTOR MACHINE**(Numerical Dataset) - 
-The Support Vector Machine (SVM) algorithm is predicting whether a breast tumor is benign or malignant. SVM works by finding the optimal hyperplane that separates the two classes in the feature space with the maximum margin, ensuring robust classification. Expected output
-![5](https://github.com/user-attachments/assets/4981f171-ab47-4124-b892-b4d8ee14d857)
-![8](https://github.com/user-attachments/assets/d9a5b687-99dc-467a-8d78-db4e0d14944a)
-![7](https://github.com/user-attachments/assets/f7231d29-7f03-4019-b3f1-a4e5012e60ea)
-![9](https://github.com/user-attachments/assets/d78cc1ea-cd7f-45e8-831f-7c542214d268)
+The Support Vector Machine (SVM) algorithm is predicting whether a breast tumor is benign or malignant. SVM works by finding the optimal hyperplane that separates the two classes in the feature space with the maximum margin, ensuring robust classification. 
 
 R5: Neural Networks 
 **Convolutional Neural Network** (Image Dataset) -
-The Convolutional Neural Network (CNN) depicted here is predicting the category of images into one of two classes. Training and Validation Accuracy, Training and Validation Loss and it shows the Validation and test accuracy. Expected output
-![cnn2](https://github.com/user-attachments/assets/aad056d2-7755-4d6b-b843-db8317c29a82)
-![cnn1](https://github.com/user-attachments/assets/8f74ff37-fe8d-4f9e-829f-043ae81808f6)
-![Screenshot 2024-11-22 at 11 04 38 PM](https://github.com/user-attachments/assets/7b507994-046b-4157-b795-1767d92ba26d)
+The Convolutional Neural Network (CNN) depicted here is predicting the category of images into one of two classes. Training and Validation Accuracy, Training and Validation Loss and it shows the Validation and test accuracy. 
+
 
 **Multi-Layer Perceptron** (Image Dataset) -
-The Multi-Layer Perceptron (MLP) depicted here is predicting whether a sample belongs to one of three classes: Benign, Malignant, or Normal.Expected output
-![mlps1](https://github.com/user-attachments/assets/4c8d460c-a33e-42e3-b86d-4468e246ea41)
+The Multi-Layer Perceptron (MLP) depicted here is predicting whether a sample belongs to one of three classes: Benign, Malignant, or Normal.
 
-![Screenshot 2024-11-22 at 11 06 21 PM](https://github.com/user-attachments/assets/28782a25-f961-4357-9c8e-aa8dea79ab82)
-
-![mlps2](https://github.com/user-attachments/assets/2b6f4ee8-65b1-4059-ac0a-4c06a83333e9)
 
 **MultiLayer Perceptron** (Numerical Dataset)-
-The Multi-Layer Perceptron (MLP) depicted here predicts whether a tumor is benign or malignant, achieving high accuracy. Expected output:
-![mlps5](https://github.com/user-attachments/assets/1282b1a7-f861-4f03-8842-6802034e2de1)
-
-
-![mlps4](https://github.com/user-attachments/assets/59634f6b-94ea-45ae-b306-447e5ccfad3b)
-
-
-
-
-
-
+The Multi-Layer Perceptron (MLP) depicted here predicts whether a tumor is benign or malignant, achieving high accuracy. 
 
 
 The main datasets:
