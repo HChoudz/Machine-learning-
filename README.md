@@ -37,29 +37,23 @@ To run the Jupyter you have to import the following libraries ->
 You can use either of these 2 commands (depending on your environment) to install individually': "Pip3 install 'library_name'" OR    "Conda install 'library_name'" 
 Or To install all of them at once you can use either of these: "pip install matplotlib numpy pandas seaborn tensorflow scikit-learn scipy" OR "conda install matplotlib numpy pandas seaborn -c conda-forge tensorflow scikit-learn scipy"
 
-
-![Screenshot 2024-11-22 at 11 51 14 PM](https://github.com/user-attachments/assets/b8d0230e-05e8-45c6-97a8-aad3c0db2a74)
-
 You can select a kernel and click on python environment.
 
-![Screenshot 2024-11-29 at 12 14 01 PM](https://github.com/user-attachments/assets/92da7b1d-5dba-47f6-a9bd-0bd25300ea11)
+
 
 Now click on create new python environment
 
-![Screenshot 2024-11-29 at 1 59 21 PM](https://github.com/user-attachments/assets/bc75e8f3-85e2-4da4-9884-2ff5c3b3cea4)
+
 
 Click on Conda or Pip environment
 
-![Screenshot 2024-11-29 at 2 00 45 PM](https://github.com/user-attachments/assets/b3424576-c35f-4084-97dd-cd8732a73720)
+
 
 You can choose your python verison from here
 
-![Screenshot 2024-11-29 at 2 03 07 PM](https://github.com/user-attachments/assets/d2bf2c08-ed40-4a0e-a710-1761086c9233)
 
 
 To Run the code you have to click on this "Run All" button and have Python 3.10 or under (Python 3.9 recommended)
-
-![Screen Shot 2024-11-28 at 9 15 21 PM](https://github.com/user-attachments/assets/fbf76438-b016-4763-9260-b0c9a6b04a7f)
 
 
 
